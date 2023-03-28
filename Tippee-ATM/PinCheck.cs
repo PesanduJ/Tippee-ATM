@@ -37,6 +37,9 @@ namespace Tippee_ATM
             }
         }
 
-       
+        private void PinCheck_Load(object sender, EventArgs e)
+        {
+            txt_pin.Focus();
+        }
     }
 }

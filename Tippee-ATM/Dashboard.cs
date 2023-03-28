@@ -16,5 +16,10 @@ namespace Tippee_ATM
         {
             InitializeComponent();
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

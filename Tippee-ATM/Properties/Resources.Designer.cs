@@ -69,5 +69,15 @@ namespace Tippee_ATM.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tippee_Logo_Header {
+            get {
+                object obj = ResourceManager.GetObject("Tippee-Logo-Header", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

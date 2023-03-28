@@ -36,6 +36,7 @@
             // 
             this.btn_scan.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btn_scan.Animated = true;
+            this.btn_scan.BorderThickness = 3;
             this.btn_scan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_scan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_scan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -65,7 +66,7 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Login_KeyDown);
             this.ResumeLayout(false);
 
         }

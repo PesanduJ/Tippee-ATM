@@ -111,5 +111,8 @@
   <ItemGroup>
     <None Include="Resources\Tippee-Logo.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tippee-Logo-Header.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
