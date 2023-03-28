@@ -36,11 +36,11 @@
             this.label_balance = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lbl_name = new System.Windows.Forms.Label();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lbl_lastWithdrawal = new System.Windows.Forms.Label();
-            this.lbl_time = new System.Windows.Forms.Label();
             this.lbl_date = new System.Windows.Forms.Label();
+            this.lbl_time = new System.Windows.Forms.Label();
+            this.lbl_name = new System.Windows.Forms.Label();
+            this.lbl_lastWithdrawal = new System.Windows.Forms.Label();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,7 +154,7 @@
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(13)))));
+            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
             this.guna2Separator1.FillThickness = 2;
             this.guna2Separator1.Location = new System.Drawing.Point(63, 479);
             this.guna2Separator1.Name = "guna2Separator1";
@@ -173,38 +173,17 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1029, 134);
             this.guna2Panel1.TabIndex = 4;
             // 
-            // lbl_name
+            // lbl_date
             // 
-            this.lbl_name.AutoSize = true;
-            this.lbl_name.Font = new System.Drawing.Font("Microsoft YaHei", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_name.Location = new System.Drawing.Point(207, 183);
-            this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(612, 36);
-            this.lbl_name.TabIndex = 9;
-            this.lbl_name.Text = "Mr. Brown, what would you like to do today?";
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2Panel2.BackgroundImage = global::Tippee_ATM.Properties.Resources.Tippee_Logo_Header;
-            this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel2.Location = new System.Drawing.Point(-2, -1);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(239, 134);
-            this.guna2Panel2.TabIndex = 5;
-            // 
-            // lbl_lastWithdrawal
-            // 
-            this.lbl_lastWithdrawal.AutoSize = true;
-            this.lbl_lastWithdrawal.BackColor = System.Drawing.Color.Gold;
-            this.lbl_lastWithdrawal.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_lastWithdrawal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_lastWithdrawal.Location = new System.Drawing.Point(73, 418);
-            this.lbl_lastWithdrawal.Name = "lbl_lastWithdrawal";
-            this.lbl_lastWithdrawal.Size = new System.Drawing.Size(99, 34);
-            this.lbl_lastWithdrawal.TabIndex = 10;
-            this.lbl_lastWithdrawal.Text = "LAST\r\nWITHDRAWAL";
+            this.lbl_date.AutoSize = true;
+            this.lbl_date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_date.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_date.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl_date.Location = new System.Drawing.Point(793, 77);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(223, 20);
+            this.lbl_date.TabIndex = 12;
+            this.lbl_date.Text = "Monday, 7th November 2023";
             // 
             // lbl_time
             // 
@@ -218,17 +197,38 @@
             this.lbl_time.TabIndex = 11;
             this.lbl_time.Text = "10:10 AM";
             // 
-            // lbl_date
+            // lbl_name
             // 
-            this.lbl_date.AutoSize = true;
-            this.lbl_date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_date.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_date.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_date.Location = new System.Drawing.Point(793, 77);
-            this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(223, 20);
-            this.lbl_date.TabIndex = 12;
-            this.lbl_date.Text = "Monday, 7th November 2023";
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.Font = new System.Drawing.Font("Microsoft YaHei", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_name.Location = new System.Drawing.Point(207, 183);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(612, 36);
+            this.lbl_name.TabIndex = 9;
+            this.lbl_name.Text = "Mr. Brown, what would you like to do today?";
+            // 
+            // lbl_lastWithdrawal
+            // 
+            this.lbl_lastWithdrawal.AutoSize = true;
+            this.lbl_lastWithdrawal.BackColor = System.Drawing.Color.Gold;
+            this.lbl_lastWithdrawal.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_lastWithdrawal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_lastWithdrawal.Location = new System.Drawing.Point(73, 418);
+            this.lbl_lastWithdrawal.Name = "lbl_lastWithdrawal";
+            this.lbl_lastWithdrawal.Size = new System.Drawing.Size(99, 34);
+            this.lbl_lastWithdrawal.TabIndex = 10;
+            this.lbl_lastWithdrawal.Text = "LAST\r\nWITHDRAWAL";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2Panel2.BackgroundImage = global::Tippee_ATM.Properties.Resources.Tippee_Logo_Header;
+            this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel2.Location = new System.Drawing.Point(-2, -1);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(239, 134);
+            this.guna2Panel2.TabIndex = 5;
             // 
             // Dashboard
             // 
