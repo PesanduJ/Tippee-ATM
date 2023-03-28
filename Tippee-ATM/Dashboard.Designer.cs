@@ -155,7 +155,7 @@
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
+            this.guna2Separator1.FillColor = System.Drawing.SystemColors.ControlLightLight;
             this.guna2Separator1.FillThickness = 2;
             this.guna2Separator1.Location = new System.Drawing.Point(63, 479);
             this.guna2Separator1.Name = "guna2Separator1";
