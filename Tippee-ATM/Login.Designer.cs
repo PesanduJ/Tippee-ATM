@@ -43,11 +43,12 @@
             this.btn_scan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(239)))), ((int)(((byte)(221)))));
             this.btn_scan.Font = new System.Drawing.Font("Franklin Gothic Medium", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_scan.ForeColor = System.Drawing.Color.Black;
-            this.btn_scan.Location = new System.Drawing.Point(257, 421);
+            this.btn_scan.Location = new System.Drawing.Point(244, 430);
             this.btn_scan.Name = "btn_scan";
             this.btn_scan.Size = new System.Drawing.Size(539, 84);
             this.btn_scan.TabIndex = 0;
             this.btn_scan.Text = "Scan Your Fingerprint";
+            this.btn_scan.Click += new System.EventHandler(this.btn_scan_Click);
             // 
             // Login
             // 
@@ -56,7 +57,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1024, 611);
+            this.ClientSize = new System.Drawing.Size(1026, 610);
             this.Controls.Add(this.btn_scan);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ControlText;

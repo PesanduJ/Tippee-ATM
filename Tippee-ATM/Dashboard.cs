@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Tippee_ATM
 {
-    public partial class Login : Form
+    public partial class Dashboard : Form
     {
-        public Login()
+        public Dashboard()
         {
             InitializeComponent();
-        }
-
-        private void btn_scan_Click(object sender, EventArgs e)
-        {
-            PinCheck obj = new PinCheck();
-            obj.Show();
-            this.Hide();
-
         }
     }
 }
