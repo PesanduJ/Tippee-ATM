@@ -17,13 +17,126 @@ namespace Tippee_ATM
             InitializeComponent();
         }
 
-        private void txt_pin_KeyDown(object sender, KeyEventArgs e)
+        private void PinCheck_Load(object sender, EventArgs e)
         {
-            if(e.KeyValue == (char)Keys.Enter)
+            txt_pin.Focus();
+        }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '1';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '2';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_3_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '3';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_4_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '4';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_5_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '5';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_6_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '6';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_7_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '7';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_8_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '8';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_9_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '9';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_0_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '0';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_dot_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits + '.';
+
+            txt_pin.Text = digits;
+        }
+
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            String digits = txt_pin.Text.ToString();
+
+            digits = digits.Remove(digits.Length - 1);
+
+            txt_pin.Text = digits;
+        }
+
+        private void txt_pin_TextChanged(object sender, EventArgs e)
+        {
+            if (txt_pin.Text.Length == 4)
             {
                 var pin = txt_pin.Text;
 
-                if(pin == "1234")
+                if (pin == "1234")
                 {
                     Dashboard obj = new Dashboard();
                     obj.Show();
@@ -31,17 +144,9 @@ namespace Tippee_ATM
                 }
                 else
                 {
-                    MessageBox.Show("Enter 1234!");
+                    txt_pin.Clear();
                 }
-
             }
         }
-
-        private void PinCheck_Load(object sender, EventArgs e)
-        {
-            txt_pin.Focus();
-        }
-
-       
     }
 }

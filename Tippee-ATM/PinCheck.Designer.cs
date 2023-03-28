@@ -30,23 +30,23 @@
         {
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
             this.lbl_date = new System.Windows.Forms.Label();
             this.lbl_time = new System.Windows.Forms.Label();
-            this.txt_pin = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_6 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_9 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_8 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_7 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_clear = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_0 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_dot = new Guna.UI2.WinForms.Guna2Button();
             this.pb_fingerprint = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txt_pin = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_fingerprint)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +60,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(130, 469);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(218, 40);
-            this.guna2HtmlLabel1.TabIndex = 1;
+            this.guna2HtmlLabel1.TabIndex = 2;
             this.guna2HtmlLabel1.Text = "Enter Your Pin :";
             // 
             // guna2Panel1
@@ -73,186 +73,6 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1029, 134);
             this.guna2Panel1.TabIndex = 5;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(697, 218);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button2.TabIndex = 7;
-            this.guna2Button2.Text = "1";
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(773, 218);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button1.TabIndex = 8;
-            this.guna2Button1.Text = "2";
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.Location = new System.Drawing.Point(849, 218);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button3.TabIndex = 9;
-            this.guna2Button3.Text = "3";
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button4.Location = new System.Drawing.Point(849, 295);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button4.TabIndex = 12;
-            this.guna2Button4.Text = "6";
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.Location = new System.Drawing.Point(773, 295);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button5.TabIndex = 11;
-            this.guna2Button5.Text = "5";
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.White;
-            this.guna2Button6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.Location = new System.Drawing.Point(697, 295);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button6.TabIndex = 10;
-            this.guna2Button6.Text = "4";
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.White;
-            this.guna2Button7.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button7.Location = new System.Drawing.Point(849, 372);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button7.TabIndex = 15;
-            this.guna2Button7.Text = "9";
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.Color.White;
-            this.guna2Button8.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Location = new System.Drawing.Point(773, 372);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button8.TabIndex = 14;
-            this.guna2Button8.Text = "8";
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.FillColor = System.Drawing.Color.White;
-            this.guna2Button9.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button9.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button9.Location = new System.Drawing.Point(697, 372);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button9.TabIndex = 13;
-            this.guna2Button9.Text = "7";
-            // 
-            // guna2Button10
-            // 
-            this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button10.FillColor = System.Drawing.Color.White;
-            this.guna2Button10.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button10.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button10.Location = new System.Drawing.Point(849, 449);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button10.TabIndex = 18;
-            this.guna2Button10.Text = "<";
-            // 
-            // guna2Button11
-            // 
-            this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button11.FillColor = System.Drawing.Color.White;
-            this.guna2Button11.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button11.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button11.Location = new System.Drawing.Point(773, 449);
-            this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button11.TabIndex = 17;
-            this.guna2Button11.Text = "0";
-            // 
-            // guna2Button12
-            // 
-            this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button12.FillColor = System.Drawing.Color.White;
-            this.guna2Button12.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button12.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button12.Location = new System.Drawing.Point(697, 449);
-            this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.Size = new System.Drawing.Size(60, 60);
-            this.guna2Button12.TabIndex = 16;
-            this.guna2Button12.Text = ".";
             // 
             // lbl_date
             // 
@@ -278,32 +98,202 @@
             this.lbl_time.TabIndex = 13;
             this.lbl_time.Text = "10:10 AM";
             // 
-            // txt_pin
+            // btn_1
             // 
-            this.txt_pin.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_pin.DefaultText = "";
-            this.txt_pin.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_pin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_pin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_pin.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_pin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_pin.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_pin.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_pin.Location = new System.Drawing.Point(369, 469);
-            this.txt_pin.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.txt_pin.Name = "txt_pin";
-            this.txt_pin.PasswordChar = '\0';
-            this.txt_pin.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.txt_pin.PlaceholderText = "* * * *";
-            this.txt_pin.SelectedText = "";
-            this.txt_pin.Size = new System.Drawing.Size(163, 40);
-            this.txt_pin.TabIndex = 19;
-            this.txt_pin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_1.FillColor = System.Drawing.Color.White;
+            this.btn_1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_1.ForeColor = System.Drawing.Color.Black;
+            this.btn_1.Location = new System.Drawing.Point(693, 223);
+            this.btn_1.Name = "btn_1";
+            this.btn_1.Size = new System.Drawing.Size(60, 60);
+            this.btn_1.TabIndex = 7;
+            this.btn_1.Text = "1";
+            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
+            // 
+            // btn_2
+            // 
+            this.btn_2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_2.FillColor = System.Drawing.Color.White;
+            this.btn_2.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_2.ForeColor = System.Drawing.Color.Black;
+            this.btn_2.Location = new System.Drawing.Point(769, 223);
+            this.btn_2.Name = "btn_2";
+            this.btn_2.Size = new System.Drawing.Size(60, 60);
+            this.btn_2.TabIndex = 8;
+            this.btn_2.Text = "2";
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
+            // 
+            // btn_3
+            // 
+            this.btn_3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_3.FillColor = System.Drawing.Color.White;
+            this.btn_3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_3.ForeColor = System.Drawing.Color.Black;
+            this.btn_3.Location = new System.Drawing.Point(845, 223);
+            this.btn_3.Name = "btn_3";
+            this.btn_3.Size = new System.Drawing.Size(60, 60);
+            this.btn_3.TabIndex = 9;
+            this.btn_3.Text = "3";
+            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
+            // 
+            // btn_6
+            // 
+            this.btn_6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_6.FillColor = System.Drawing.Color.White;
+            this.btn_6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_6.ForeColor = System.Drawing.Color.Black;
+            this.btn_6.Location = new System.Drawing.Point(845, 300);
+            this.btn_6.Name = "btn_6";
+            this.btn_6.Size = new System.Drawing.Size(60, 60);
+            this.btn_6.TabIndex = 12;
+            this.btn_6.Text = "6";
+            this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
+            // 
+            // btn_5
+            // 
+            this.btn_5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_5.FillColor = System.Drawing.Color.White;
+            this.btn_5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_5.ForeColor = System.Drawing.Color.Black;
+            this.btn_5.Location = new System.Drawing.Point(769, 300);
+            this.btn_5.Name = "btn_5";
+            this.btn_5.Size = new System.Drawing.Size(60, 60);
+            this.btn_5.TabIndex = 11;
+            this.btn_5.Text = "5";
+            this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
+            // 
+            // btn_4
+            // 
+            this.btn_4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_4.FillColor = System.Drawing.Color.White;
+            this.btn_4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_4.ForeColor = System.Drawing.Color.Black;
+            this.btn_4.Location = new System.Drawing.Point(693, 300);
+            this.btn_4.Name = "btn_4";
+            this.btn_4.Size = new System.Drawing.Size(60, 60);
+            this.btn_4.TabIndex = 10;
+            this.btn_4.Text = "4";
+            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
+            // 
+            // btn_9
+            // 
+            this.btn_9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_9.FillColor = System.Drawing.Color.White;
+            this.btn_9.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_9.ForeColor = System.Drawing.Color.Black;
+            this.btn_9.Location = new System.Drawing.Point(845, 377);
+            this.btn_9.Name = "btn_9";
+            this.btn_9.Size = new System.Drawing.Size(60, 60);
+            this.btn_9.TabIndex = 15;
+            this.btn_9.Text = "9";
+            this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
+            // 
+            // btn_8
+            // 
+            this.btn_8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_8.FillColor = System.Drawing.Color.White;
+            this.btn_8.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_8.ForeColor = System.Drawing.Color.Black;
+            this.btn_8.Location = new System.Drawing.Point(769, 377);
+            this.btn_8.Name = "btn_8";
+            this.btn_8.Size = new System.Drawing.Size(60, 60);
+            this.btn_8.TabIndex = 14;
+            this.btn_8.Text = "8";
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
+            // 
+            // btn_7
+            // 
+            this.btn_7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_7.FillColor = System.Drawing.Color.White;
+            this.btn_7.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_7.Location = new System.Drawing.Point(693, 377);
+            this.btn_7.Name = "btn_7";
+            this.btn_7.Size = new System.Drawing.Size(60, 60);
+            this.btn_7.TabIndex = 13;
+            this.btn_7.Text = "7";
+            this.btn_7.Click += new System.EventHandler(this.btn_7_Click);
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_clear.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_clear.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_clear.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_clear.FillColor = System.Drawing.Color.White;
+            this.btn_clear.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clear.ForeColor = System.Drawing.Color.Black;
+            this.btn_clear.Location = new System.Drawing.Point(845, 454);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(60, 60);
+            this.btn_clear.TabIndex = 18;
+            this.btn_clear.Text = "<";
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
+            // btn_0
+            // 
+            this.btn_0.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_0.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_0.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_0.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_0.FillColor = System.Drawing.Color.White;
+            this.btn_0.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_0.ForeColor = System.Drawing.Color.Black;
+            this.btn_0.Location = new System.Drawing.Point(769, 454);
+            this.btn_0.Name = "btn_0";
+            this.btn_0.Size = new System.Drawing.Size(60, 60);
+            this.btn_0.TabIndex = 17;
+            this.btn_0.Text = "0";
+            this.btn_0.Click += new System.EventHandler(this.btn_0_Click);
+            // 
+            // btn_dot
+            // 
+            this.btn_dot.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dot.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dot.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_dot.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_dot.FillColor = System.Drawing.Color.White;
+            this.btn_dot.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dot.ForeColor = System.Drawing.Color.Black;
+            this.btn_dot.Location = new System.Drawing.Point(693, 454);
+            this.btn_dot.Name = "btn_dot";
+            this.btn_dot.Size = new System.Drawing.Size(60, 60);
+            this.btn_dot.TabIndex = 16;
+            this.btn_dot.Text = ".";
+            this.btn_dot.Click += new System.EventHandler(this.btn_dot_Click);
             // 
             // pb_fingerprint
             // 
             this.pb_fingerprint.ImageRotate = 0F;
-            this.pb_fingerprint.Location = new System.Drawing.Point(130, 218);
+            this.pb_fingerprint.Location = new System.Drawing.Point(130, 223);
             this.pb_fingerprint.Name = "pb_fingerprint";
             this.pb_fingerprint.Size = new System.Drawing.Size(150, 150);
             this.pb_fingerprint.TabIndex = 20;
@@ -321,6 +311,32 @@
             this.guna2HtmlLabel2.TabIndex = 21;
             this.guna2HtmlLabel2.Text = "Fingerprintㅤㅤ:ㅤVerified!";
             // 
+            // txt_pin
+            // 
+            this.txt_pin.BorderColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txt_pin.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_pin.DefaultText = "";
+            this.txt_pin.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_pin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_pin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_pin.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_pin.FillColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txt_pin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_pin.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pin.ForeColor = System.Drawing.Color.Black;
+            this.txt_pin.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_pin.Location = new System.Drawing.Point(368, 464);
+            this.txt_pin.Margin = new System.Windows.Forms.Padding(8);
+            this.txt_pin.Name = "txt_pin";
+            this.txt_pin.PasswordChar = '\0';
+            this.txt_pin.PlaceholderForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txt_pin.PlaceholderText = "*  *  *  *";
+            this.txt_pin.SelectedText = "";
+            this.txt_pin.Size = new System.Drawing.Size(177, 50);
+            this.txt_pin.TabIndex = 1;
+            this.txt_pin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_pin.TextChanged += new System.EventHandler(this.txt_pin_TextChanged);
+            // 
             // PinCheck
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -328,21 +344,21 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1026, 610);
+            this.Controls.Add(this.txt_pin);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.pb_fingerprint);
-            this.Controls.Add(this.txt_pin);
-            this.Controls.Add(this.guna2Button10);
-            this.Controls.Add(this.guna2Button11);
-            this.Controls.Add(this.guna2Button12);
-            this.Controls.Add(this.guna2Button7);
-            this.Controls.Add(this.guna2Button8);
-            this.Controls.Add(this.guna2Button9);
-            this.Controls.Add(this.guna2Button4);
-            this.Controls.Add(this.guna2Button5);
-            this.Controls.Add(this.guna2Button6);
-            this.Controls.Add(this.guna2Button3);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.btn_clear);
+            this.Controls.Add(this.btn_0);
+            this.Controls.Add(this.btn_dot);
+            this.Controls.Add(this.btn_9);
+            this.Controls.Add(this.btn_8);
+            this.Controls.Add(this.btn_7);
+            this.Controls.Add(this.btn_6);
+            this.Controls.Add(this.btn_5);
+            this.Controls.Add(this.btn_4);
+            this.Controls.Add(this.btn_3);
+            this.Controls.Add(this.btn_2);
+            this.Controls.Add(this.btn_1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.DoubleBuffered = true;
@@ -362,22 +378,22 @@
         #endregion
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2Button guna2Button12;
+        private Guna.UI2.WinForms.Guna2Button btn_1;
+        private Guna.UI2.WinForms.Guna2Button btn_2;
+        private Guna.UI2.WinForms.Guna2Button btn_3;
+        private Guna.UI2.WinForms.Guna2Button btn_6;
+        private Guna.UI2.WinForms.Guna2Button btn_5;
+        private Guna.UI2.WinForms.Guna2Button btn_4;
+        private Guna.UI2.WinForms.Guna2Button btn_9;
+        private Guna.UI2.WinForms.Guna2Button btn_8;
+        private Guna.UI2.WinForms.Guna2Button btn_7;
+        private Guna.UI2.WinForms.Guna2Button btn_clear;
+        private Guna.UI2.WinForms.Guna2Button btn_0;
+        private Guna.UI2.WinForms.Guna2Button btn_dot;
         private System.Windows.Forms.Label lbl_date;
         private System.Windows.Forms.Label lbl_time;
-        private Guna.UI2.WinForms.Guna2TextBox txt_pin;
         private Guna.UI2.WinForms.Guna2PictureBox pb_fingerprint;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2TextBox txt_pin;
     }
 }
