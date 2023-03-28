@@ -21,5 +21,12 @@ namespace Tippee_ATM
         {
 
         }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+            Settings obj = new Settings();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

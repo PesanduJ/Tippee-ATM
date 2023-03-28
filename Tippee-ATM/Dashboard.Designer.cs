@@ -79,6 +79,7 @@
             this.btn_settings.Size = new System.Drawing.Size(219, 99);
             this.btn_settings.TabIndex = 2;
             this.btn_settings.Text = "SETTINGS";
+            this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
             // 
             // btn_withdraw
             // 

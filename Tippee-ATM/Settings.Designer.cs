@@ -46,7 +46,7 @@
             this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_back = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_primaryFingerprint)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_secondaryFingerprint)).BeginInit();
@@ -307,23 +307,24 @@
             this.label3.TabIndex = 28;
             this.label3.Text = "SECONDARY FINGERPRINT";
             // 
-            // guna2Button3
+            // btn_back
             // 
-            this.guna2Button3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(48)))));
-            this.guna2Button3.Location = new System.Drawing.Point(854, 560);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(207, 49);
-            this.guna2Button3.TabIndex = 29;
-            this.guna2Button3.Text = "BACK";
+            this.btn_back.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_back.Animated = true;
+            this.btn_back.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_back.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_back.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_back.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_back.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_back.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
+            this.btn_back.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(48)))));
+            this.btn_back.Location = new System.Drawing.Point(817, 560);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(207, 49);
+            this.btn_back.TabIndex = 30;
+            this.btn_back.Text = "BACK";
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // Settings
             // 
@@ -331,7 +332,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(1026, 610);
-            this.Controls.Add(this.guna2Button3);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2VSeparator2);
@@ -380,6 +381,6 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btn_back;
     }
 }
